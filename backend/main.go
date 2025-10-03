@@ -3,9 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/gin-gonic/gin"
 	"trader-backend/api"
 	"trader-backend/services"
+
+	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -20,3 +21,5 @@ func main() {
 	log.Println("Server started on :8080")
 	r.Run(":8080")
 }
+
+//мой коммит
